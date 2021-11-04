@@ -1,4 +1,4 @@
-# NFT Game Front
+# Smart Contract UI
 
 ### **Welcome 👋**
 This a weekend project made to learn some Solidity.
