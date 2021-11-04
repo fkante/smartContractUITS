@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
-import './App.css'
 import { ethers } from "ethers";
 
-declare let window: any;
-
-
+import './App.css'
 import WavePortal from "./utils/WavePortal.json";
 import GradientTitle from "./common/GradientTitle";
 import Button from "./common/Button";
 import Input from './common/Input';
+
+declare let window: any;
 
 enum SubmitStatus {
   IDLE,
@@ -162,7 +161,7 @@ export default function App() {
           titles={["👋 Hey! Welcome to my Beautiful Math"]}
         />
         <div className="inline-flex text-center items-center py-6">
-          I am Francis! I a curious and I love math. My favorite conjecture is
+          I am Francis! I am curious and I love math. My favorite conjecture is
           the collatz conjecture (3n + 1 conjecture), its representation is quite a sight! Connect
           your wallet and send me your best equation!
         </div>
